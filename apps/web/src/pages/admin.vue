@@ -5,7 +5,7 @@
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
         <q-toolbar-title> Quasar App </q-toolbar-title>
         <div>
-          {{ user?.name }} <br>
+          {{ use  r?.name }} <br>
           <small>{{ user?.email }}</small>
         </div>
       </q-toolbar>
